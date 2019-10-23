@@ -13,3 +13,4 @@ It will be implemented as a two module app. The public front-end (www) will resp
 ## A conceptual overview of the application.
 
 ![Conseptual diagram](./docs/smalldiagram.png) 
+
