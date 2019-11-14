@@ -24,6 +24,8 @@ spec:
             limits:
               memory: "54Mi"
           replicas: 1
+      secrets:
+       - SOMESECRET
     - name: www
       src: ./www
       publicPort: http
