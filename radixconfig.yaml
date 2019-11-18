@@ -10,7 +10,7 @@ spec:
     - name: prod
   components:
     - name: test
-      image: privaterepodeleteme.azurecr.io/nginx:latest
+      image: radixcanary.azurecr.io/nginx:latest
       publicPort: http
       ports:
        - name: http
@@ -64,6 +64,6 @@ spec:
     environment: development
     component: www
   privateImageHubs:
-    privaterepodeleteme.azurecr.io:
+    radixcanary.azurecr.io:
       username: 814607e6-3d71-44a7-8476-50e8b281abbc
       email: radix@statoilsrm.onmicrosoft.com
