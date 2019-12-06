@@ -14,4 +14,3 @@ It will be implemented as a two module app. The public front-end (www) will resp
 
 ![Conseptual diagram](./docs/smalldiagram.png) 
  
- 
