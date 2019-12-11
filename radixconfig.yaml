@@ -9,23 +9,6 @@ spec:
         from: master
     - name: prod
   components:
-    - name: test
-      image: radixcanary.azurecr.io/nginx:latest
-      publicPort: http
-      ports:
-       - name: http
-         port: 80
-      environmentConfig:
-        - environment: development
-          resources:
-            requests:
-              memory: "54Mi"
-              cpu: "10m"
-            limits:
-              memory: "54Mi"
-          replicas: 1
-      secrets:
-       - SOMESECRET
     - name: www
       src: ./www
       publicPort: http
@@ -63,7 +46,3 @@ spec:
   dnsAppAlias:
     environment: development
     component: www
-  privateImageHubs:
-    radixcanary.azurecr.io:
-      username: 814607e6-3d71-44a7-8476-50e8b281abbc
-      email: radix@statoilsrm.onmicrosoft.com
