@@ -5,7 +5,7 @@ const Header = () => {
   return <header className="App-header">
     <img src={logo} className="App-logo" alt="logo" />
     <p>
-      Radix a PaaS built on Kubernetes - US
+      Radix a PaaS built on Kubernetes - hi
     </p>
     <div className="App-description">
     <br/>
